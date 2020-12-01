@@ -23,3 +23,7 @@ function unleashDog(dogName, dogBreed) {
 }
 
 routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
+
+function exerciseDog(dogName, dogBreed) {
+  routine
+}
