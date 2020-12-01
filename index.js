@@ -26,6 +26,6 @@ routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
 
 function exerciseDog(dogName, dogBreed) {
   for (let value of routine) {
-    value(dogName, dogBreed)
+    console.log(value(dogName, dogBreed));
   }
 }
