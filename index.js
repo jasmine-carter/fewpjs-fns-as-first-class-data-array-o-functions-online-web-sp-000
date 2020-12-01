@@ -32,6 +32,6 @@ const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashD
 
 function exerciseDog(dogName, dogBreed) {
   for (let value of routine) {
-    console.log(value(dogName, dogBreed));
+    return value(dogName, dogBreed));
   }
 }
